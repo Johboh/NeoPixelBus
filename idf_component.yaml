@@ -1,0 +1,7 @@
+version: "2.8.3"
+description: Fork of NeoPixelBus with added ESP-IDF (idf_component.yaml) component support.
+url: https://github.com/Johboh/NeoPixelBus
+dependencies:
+  idf: ">=5.1"
+  espressif/arduino-esp32:
+    version: ">=3.1.1"
